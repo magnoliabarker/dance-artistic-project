@@ -1133,18 +1133,18 @@ input[type=range] {
 }
 /* SPACE: four cards fill the viewport; no scrolling is needed to see the full pattern. */
 .space-card-grid {
-  position:relative;
-  flex:1 1 auto;
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  grid-template-rows:repeat(2,minmax(0,1fr));
-  gap:10px;
-  width:100%;
-  max-width:1120px;
-  min-height:0;
-  margin:0 auto;
-  padding:8px 3vw 12px;
-  overflow:hidden;
+    position: relative;
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: 250px 250px;
+    gap: 10px;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 0;
+    margin: 0 auto;
+    padding: 8px 5vw 12px;
+    overflow: hidden;
 }
 .space-card {
   position:relative;
@@ -1194,17 +1194,18 @@ input[type=range] {
   padding:0;
 }
 .space-card-copy h2 {
-  max-width:290px;
-  margin:8px 0 6px;
-  font-size:clamp(24px,3.5vw,36px);
+  max-width:299px;
+  font-size: 35px;
+  margin-bottom: 23px;
   font-weight:600;
   line-height:1.02;
 }
+
 .space-card-copy p {
   max-width:34ch;
   margin:0;
   font-size:16px;
-  line-height:1.45;
+  line-height:1.55;
 }
 
 .space-page .site-footer {
@@ -1258,7 +1259,7 @@ input[type=range] {
     flex-basis:64px;
   }
   .space-heading {
-    padding:16px 7vw 8px;
+    padding:16px 9vw 8px;
   }
   .space-heading h1 {
     font-size:clamp(39px,9vw,56px);
@@ -1269,10 +1270,10 @@ input[type=range] {
   }
   .space-card-grid {
     gap:10px;
-    padding:6px 3vw 8px;
+    padding:3px 12vw 8px;
   }
   .space-card {
-    padding:11px;
+    padding:2px;
   }
   .space-card-copy h2 {
     font-size:clamp(22px,5.2vw,27px);
@@ -1751,8 +1752,8 @@ input[type=range] {
 }
 .energy-flow-intro h1 {
   margin:0;
-  font:500 clamp(90px,15vw,190px)/.77 'Playfair Display',Georgia,serif;
-  letter-spacing:-.085em;
+  font-style: 'Playfair Display',Georgia,serif;
+  letter-spacing:-.082em;
 }
 .energy-flow-intro h1 em {
   display:block;
