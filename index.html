@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4efe6">
+  <title>Dance Elements — Magnolia Barker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="index.html"><span class="brand-monogram">MB</span> DANCE ELEMENTS</a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="body.html">Body</a>
+      <a href="space.html">Space</a>
+      <a href="time.html">Time</a>
+      <a href="energy.html">Energy</a>
+    </nav>
+    <span class="folio-tag">DANCE STUDIES · FOLIO</span>
+  </header>
+
+  <main>
+    <section class="home-hero">
+      <div class="hero-copy">
+        <p class="section-label">DANCE ARTISTIC PROJECT</p>
+        <h1>Dance<br><em>Elements</em></h1>
+        <p class="lead-copy">Body · Space · Time · Energy.</p>
+      </div>
+    </section>
+
+    <section class="elements-showcase" id="elements-showcase" aria-label="Four dance elements">
+      <div class="showcase-heading">
+        <div>
+          <p class="section-label">FOUR ELEMENTS</p>
+          <h2>Pick an element.</h2>
+        </div>
+        <div class="carousel-controls">
+          <span class="carousel-position"><b id="carousel-current">01</b> / 04</span>
+        </div>
+      </div>
+
+      <div class="element-carousel" id="element-carousel" tabindex="0" aria-label="Dance elements carousel">
+        <a class="element-card card-body" href="body.html">
+          <span class="element-card-label">01 / BODY</span>
+          <h3>Body<br>Awareness</h3>
+          <p>Notice body parts, alignment and connection.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="element-card card-space" href="space.html">
+          <span class="element-card-label">02 / SPACE</span>
+          <h3>Space</h3>
+          <p>Explore the area the body moves through.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="element-card card-time" href="time.html">
+          <span class="element-card-label">03 / TIME</span>
+          <h3>Time</h3>
+          <p>Explore speed, rhythm and pace.</p>
+          <span class="card-arrow">↗</span>
+        </a>
+        <a class="element-card card-energy" href="energy.html">
+          <span class="element-card-label">04 / ENERGY</span>
+          <h3>Energy</h3>
+          <p>Explore weight, flow, time and space.</p>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+        </a>
+      </div>
+
+      <div class="carousel-scroll-hint">
+        <span>SCROLL -> </span>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>MAGNOLIA BARKER</span>
+    <span>DANCE ARTISTIC PROJECT</span>
+  </footer>
+</body>
+</html>
